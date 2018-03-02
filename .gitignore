@@ -1,0 +1,9 @@
+# SASS CACHE #
+##############
+.sass-cache/
+.sass-cache/*
+*.map
+
+# CSS FILES #
+#############
+*.css
