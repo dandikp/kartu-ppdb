@@ -1,0 +1,119 @@
+.kartu-ppdb {
+	display: flex;
+	flex-flow: column nowrap;
+	position: relative;
+	width: 404px;
+	height: 395px;
+	padding: 10px 0;
+	border: 2px solid black;
+	font-family: "Times New Roman", Times, serif;
+
+	&__wrapper {
+		display: inline-block;
+		margin: 20px;
+		padding: 5px;
+		border: 1px dashed black;
+	}
+
+	&__header {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: flex-start;
+		align-content: flex-start;
+		align-items: center;
+		width: 100%;
+		padding: 5px 0;
+	}
+
+	&__logo-wrapper {
+		display: flex;
+		justify-content: center;
+		align-content: flex-start;
+		align-items: center;
+		width: 60px;
+	}
+
+	&__logo {
+		display: block;
+		width: 100%;
+	}
+
+	&__head-wrapper {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: flex-start;
+		align-content: flex-start;
+		align-items: center;
+		width: 100%;
+		margin-top: 8px;
+	}
+
+	&__head {
+		font-size: 16.6px;
+		font-weight: 600;
+		margin: .5px 0;
+		position: relative;
+
+		&--small {
+			font-size: calc(16.6px * .99);
+		}
+	}
+
+	&__content {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-content: flex-start;
+		align-items: flex-start;
+		width: 100%;
+		padding: 15px 27px 20px 42px;
+	}
+
+	&__form-wrapper {
+		display: flex;
+		flex-flow: column nowrap;
+		width: 100%;
+		padding-top: 12px;
+	}
+
+	&__form {
+		display: flex;
+		flex-wrap: nowrap;
+		width: 100%;
+		font-size: 16px;
+	}
+
+	&__form-title {
+		display: block;
+		width: 28%;
+	}
+
+	&__form-divider {
+		display: block;
+		width: 6px;
+	}
+
+	&__form-content {
+		display: block;
+		width: calc(70% - 6px);
+		padding-left: 5px;
+	}
+
+	&__footer {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-self: flex-end;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		padding: 5px 27px 0 42px;
+		border-top: 2px solid black;
+	}
+
+	&__footer-item {
+		display: block;
+		font-size: 14px;
+	}
+}
