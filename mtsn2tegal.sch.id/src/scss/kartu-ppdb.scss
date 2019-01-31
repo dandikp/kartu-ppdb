@@ -12,6 +12,9 @@
 		border: 1px dashed black;
 		margin: 20px;
 		padding: 5px;
+		display: inline-flex;
+		flex-wrap: nowrap;
+		width: auto;
 	}
 	
 	&__header {
@@ -144,5 +147,68 @@
 	&__rules-item {
 		list-style-type: decimal;
 		line-height: 11px;
+	}
+}
+
+.kartu-foto {
+	margin-left: 38px;
+	width: 265px;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	position: relative;
+	border: 2px solid black;
+	font-family: Helvetica, sans-serif;
+	padding: 6px 57px;
+	padding: 6px 10px;
+
+	&__header {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		justify-content: center;
+		height: 18%;
+		padding-bottom: 3px;
+	}
+
+	&__title {
+		text-transform: uppercase;
+		font-size: 25px;
+	}
+
+	&__subtitle {
+		text-transform: uppercase;
+		font-size: 17px;
+	}
+
+	&__foto-wrapper {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		padding: 20px 0 35px;
+	}
+
+	&__foto {
+		width: 105.82677165px;
+		height: 143.62204724px;
+		border: 1px solid #212121;
+		font-size: 12px;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__footer {
+		justify-self: flex-end;
+		font-size: 13px;
+		display: flex;
+		align-items: flex-end;
+		flex-flow: column nowrap;
+		padding: 10px 15px 0;
+	}
+
+	&__ttd {
+		margin-top: 15px;
+		padding-right: 25px;
 	}
 }
